@@ -1,0 +1,54 @@
+NLP PIPELINE:
+1)DATA acq
+2.Text prep
+    cleanup(wrong spellings)
+    basic prepro(tokenisation)
+    adv (pos)
+3.Feature eng:
+4.Modeling
+    model build
+    eval
+5.deployment
+
+
+DATA ACQ:
+    Lesser data?:
+        use data augmentation -- ex: replace by synonyms for some words, back translate, bigram replacement, additional noise
+    api,webscraping, public data, audiodata,..
+    rapidapi,beautifulsoup, kaggle,speech-to-text
+
+Text preparation:
+    html tag removal, emojis(utf-encoding), spelling check(textblob  )...
+
+    basic prepro:
+        tokenisation
+        2.  stop word removal(such as 'and')
+            stemming
+            removing punct..
+            lowercasing
+            lng detect
+        3. POS TAGGING
+            parsing 
+            coresulution
+Feauture engineering:
+    converting to numbers
+    ML VS dl:
+        ML feature eng is done by us
+        DL is done by itself(less interpretable)
+Modelling:
+    1.Modelling
+        lesser data?
+            use heuristics such as number of words with sale,..
+        ml, dl, cloud api
+            ml + heuristics --use heuristics as it is valid
+
+        Transform learning:
+            use pretrained dl models
+    2.eval
+        intrinsic vs extrinsic
+            intrinsic---Accuracy (metric)
+            extrinsic --- user/real word
+
+deployment
+
+
