@@ -5,7 +5,7 @@ A comprehensive medical chatbot built with Streamlit that uses machine learning 
 ## 🌟 Features
 
 - **Symptom-Based Disease Prediction**: Select symptoms and get AI-powered disease predictions
-- **Multiple ML Models**: Choose from Random Forest, Naive Bayes, and SVM algorithms  
+- **Multiple ML Models**: Choose from Random Forest, Naive Bayes, and SVM algorithms 
 - **Medical Recommendations**: Get evidence-based treatment recommendations and precautions
 - **Interactive Dashboard**: User-friendly interface with custom styling
 - **Model Performance Comparison**: Compare accuracy across different ML models
@@ -71,7 +71,7 @@ medical-chatbot/
 The system compares three machine learning algorithms:
 
 - **Random Forest**: Ensemble method, typically highest accuracy
-- **Naive Bayes**: Probabilistic classifier, fast and efficient  
+- **Naive Bayes**: Probabilistic classifier, fast and efficient 
 - **Support Vector Machine**: Robust classifier with probability estimates
 
 ## 🩺 Medical Recommendations
@@ -90,16 +90,7 @@ For each predicted condition, the system provides:
 - **Emergency Situations**: Seek immediate medical attention for emergencies
 - **Accuracy Limitations**: ML predictions may not always be accurate
 
-## 🚀 Future Enhancements
 
-- [ ] Integration with real medical APIs
-- [ ] Natural Language Processing for symptom input
-- [ ] Multi-language support
-- [ ] Integration with wearable device data
-- [ ] Telemedicine appointment booking
-- [ ] More comprehensive disease database
-- [ ] User symptom history tracking
-- [ ] Mobile-responsive design improvements
 
 ## 🤝 Contributing
 
@@ -131,15 +122,10 @@ This project is for educational purposes. Please ensure compliance with medical 
    - Update Streamlit: `pip install --upgrade streamlit`
    - Clear cache: Delete `.streamlit` folder
 
-## 📞 Support
 
-For questions or issues:
-- Check the troubleshooting section
-- Review the code comments for implementation details
-- Ensure all dependencies are properly installed
 
 ---
 
 **⚠️ Medical Disclaimer**: This application is intended for educational and research purposes only. It should not be used as a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of qualified healthcare providers with any questions regarding medical conditions.
 
-**Built with ❤️ for healthcare accessibility and education**
+
